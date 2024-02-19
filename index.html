@@ -9,11 +9,10 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
-<!-- SVG -->
+
 
 </head>
 <body>
-
 
 <header> 
     <div class="flex flex-row justify-between ml-10 mr-10">  
@@ -56,7 +55,7 @@
 
            <div class="text-center font-bold mx-auto" style="width:600px; height:62px"> <p> Yes, you get the airbus feeling in our bus services. You offer refreshments many time while you are on road with us.</p></div>
 
-          <div style="height:50px; width:200px" class="mx-auto"> <button class="w-40 h-12 bg-[#1DD100] font-bold text-lg rounded-md p-3 ms-auto"> Bus Tickets</button></div> 
+          <div style="height:50px; width:200px" class="mx-auto"> <button id="btn-one" onclick="connect()"  class="w-40 h-12 bg-[#1DD100] font-bold text-lg rounded-md p-3 ms-auto"> Bus Tickets</button></div> 
 
     </div>
 
@@ -106,9 +105,9 @@
 <!-- section two ends here -->
 <!-- section three starts here -->
 
-<section class="ml-10 mr-10">
+<section  class="ml-10 mr-10">
 
-    <div class=" w-60 h-16 mx-auto"> <p class="font-bold text-4xl"> P.H Paribahan </p></div>
+    <div id="section-three"  class=" w-60 h-16 mx-auto"> <p class="font-bold text-4xl"> P.H Paribahan </p></div>
     <div class=" mx-auto" style="width:600px; height: 64px"> <p class="text-center"> Our service is highly reliable and pleasant. You can fully rely on us.</p></div>
 
 <div class="lg:flex flex-row justify-around">
@@ -369,30 +368,22 @@
 </section>
 
 <!-- last section starts here -->
-<section class="ml-10 mr-10"> 
+<section class="mt-10"> 
+    
+             
+       <div class=" mx-auto bg-slate-400" style="width:650px; height:400px">
+                    <div class="w-20 h-14 mx-auto mb-11"> <img src="images/success.png" alt=""></div>
+                    <div class="w-20 h-8 mx-auto mb-11"><p class="font-bold text-green-600 text-3xl text-center"> SUCCESS</p></div> 
 
-    <div class="bg-slate-100 mx-auto"  style="width:1050px; height:800px"> 
-
-        <div class="bg-slate-300 mx-auto mt-32" style="width:720px; height:480px"> </div>    
-       
-    </div>
-
-    <div class=" mt-12 w-20 h-14 mx-auto mb-12"> <img src="images/success.png" alt=""></div>
-        <div class="w-96, h-8"><p class="font-bold text-green-600 text-3xl"> SUCCESS</p></div>
-
-
+                    <div class="w-72 h-24 mx-auto"> <p class="text-xl">Thank you for booking our service.</p>
+                    </div>
+                    
+                    <div class=" w-48 h-10 mx-auto"><button class="w-48 h-10 bg-green-600 rounded-full"> Continue </button> <div></div>
+          </div>    
 </section>
-
-
-
-
-
-
 
 </main>
 <footer> </footer>  
-
-
 <script src="JS/ticket.js"></script>
 </body>
 </html>
