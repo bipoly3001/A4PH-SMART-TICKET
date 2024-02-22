@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A4PH SMART TICKETING</title>
 
-    <!-- tailwind and daisy CDN -->
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind CDN -->
 
-
-
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 
@@ -36,8 +33,7 @@
          <!-- second part -->
          <div class=" w-32 h-12 flex flex-row items-center gap-2">
                <p class=" font-extrabold"> BUS</p>             
-               <div> <img src="images/bus-icon.png" alt=""></div>            
-         
+               <div> <img src="images/bus-icon.png" alt=""></div>           
          </div>
     </div>      
 </header>
@@ -52,15 +48,11 @@
     <div class=" mx-auto items-center">         
             <div class="mx-auto p-7" style="width:650px;height:150px;"> <h1 class="font-bold text-5xl text-center"> <span class="text-white">End-to-End Travel with </span><br> <span class="text-[#1DD100]"> P Paribahan</span></h1>
                         </div>
-
            <div class="text-center font-bold mx-auto" style="width:600px; height:62px"> <p> Yes, you get the airbus feeling in our bus services. You offer refreshments many time while you are on road with us.</p></div>
 
-          <div style="height:50px; width:200px" class="mx-auto"> <button id="btn-one" onclick="connect()"  class="w-40 h-12 bg-[#1DD100] font-bold text-lg rounded-md p-3 ms-auto"> Bus Tickets</button></div> 
+          <div style="height:50px; width:200px" class="mx-auto"> <button onclick = "connect()" class="w-40 h-12 bg-[#1DD100] font-bold text-lg rounded-md p-3 ms-auto"> Bus Tickets</button></div> 
 
     </div>
-
-
-
 
  </div>
 
@@ -107,7 +99,7 @@
 
 <section  class="ml-10 mr-10">
 
-    <div id="section-three"  class=" w-60 h-16 mx-auto"> <p class="font-bold text-4xl"> P.H Paribahan </p></div>
+    <div class=" w-60 h-16 mx-auto"> <p id="section-three" class = "font-bold text-4xl"> P.H Paribahan </p></div>
     <div class=" mx-auto" style="width:600px; height: 64px"> <p class="text-center"> Our service is highly reliable and pleasant. You can fully rely on us.</p></div>
 
 <div class="lg:flex flex-row justify-around">
@@ -122,9 +114,7 @@
                 <div class=" w-12 h-12"> <img src="images/seat-green.png" alt=""></div>
                 <div> <p class="text-[#1dd100] font-semibold"> 40 Seats left</p></div>
             </div>
-
         </div>
-
        
       <div> 
                 <div class="h-6 flex flex-row justify-between items-center" style="width: 600px;"> 
@@ -191,11 +181,11 @@
    <!-- first row starts here -->
 
     <div class=" mb-10 h-7 flex flex-row  gap-2 justify-between" style="width:600px"> 
-            <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2 font-bold">A</p> </div>
-            <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A1</p> </div>
-            <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A2</p> </div>
-            <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A3</p> </div>
-            <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A4</p> </div>        
+            <div class = " w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2 font-bold">A</p> </div>
+            <div class = " seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A1</p> </div>
+            <div class = " seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A2</p> </div>
+            <div class = " seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A3</p> </div>
+            <div class = " seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">A4</p> </div>        
    </div>
 
    <!-- first row ends here -->
@@ -203,10 +193,10 @@
 
    <div class="mb-10 h-7 flex flex-row  gap-2 justify-between" style="width:600px"> 
         <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2 font-bold"> B</p> </div>
-        <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B1</p> </div>
-        <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B2</p> </div>
-        <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B3</p> </div>
-        <div class = "w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B4</p> </div>        
+        <div class = "seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B1</p> </div>
+        <div class = "seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B2</p> </div>
+        <div class = "seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B3</p> </div>
+        <div class = " seat w-24 h-8 bg-slate-100 rounded-md"> <p class="text-center p-2">B4</p> </div>        
    </div>
 <!-- second row ends here -->
 <!-- third row starts here -->
@@ -310,15 +300,15 @@
        </div>
 
        <div class=" flex flex-row justify-between w-96 h-7 mb-3"> 
-                <div class="w-11 h-6"> C2 </div>
+                <div class="w-11 h-6"> </div>
                 <div class= "w-11 h-6"> Economy </div>
-                <div class = "w-11 h-6"> 550 </div>
+                <div class = "w-11 h-6"> </div>
        </div>
 
        <div class=" flex flex-row justify-between w-96 h-7 mb-3"> 
-            <div class="w-11 h-6"> C2 </div>
+            <div class="w-11 h-6"> </div>
             <div class= "w-11 h-6"> Economy </div>
-            <div class = "w-11 h-6"> 550 </div>
+            <div class = "w-11 h-6">  </div>
        </div>
        <div> <hr></div>
 
